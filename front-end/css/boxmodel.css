@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/*
+    Documento: boxmodel.css
+*/
+/*Seletor Universal => aplica uma formatação padrão para o doumento HTML. */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    text-align: center;
+    line-height: 50px;
+}
+#box-container{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 440px;
+    height: 220px;
+    border: 4px dashed blue;
+}
+
+#box1{
+    width: 110px;
+    height: 50px;
+    color: black;
+    background-color: orange;
+  /*  border: 4px solid black;*/
+  float: left;
+}
+
+#box2{
+    width: 110px;
+    height: 50px;
+    color: black;
+    background-color: lime;
+  /*  border: 4px solid black;*/
+  float: left;
+}
+
+#box3{
+    width: 110px;
+    height: 50px;
+    color: white;
+    background-color: purple;
+  /*  border: 4px solid black;*/
+  float: left;
+}
+
+#box4{
+    width: 110px;
+    height: 50px;
+    color: black;
+    background-color: yellow;
+  /*border: inherit;*/
+  float: left;
+}
+
+/*#clear {
+    clear: both;
+}*/

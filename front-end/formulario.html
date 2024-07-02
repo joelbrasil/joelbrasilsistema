@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html>
+	<head>
+	<title>Formulário</title>
+
+	</head>
+	<body>
+
+		<form method="post" action="">
+
+			<hr>  
+			<h1>Entrada de texto</h1>
+				Digite seu nome completo:
+				<input type=text>
+				<br>
+				Digite sua senha:
+				<input type=password>
+				<br>
+				Entrada oculta:
+				<input type=hidden value=xxxxxx>
+			<hr>  
+			
+			<h1>Checkbox: permite escolher várias opções:</h1>
+				Quais veículos você possui?<br>	
+				<input type="checkbox" value="Bike"> EU TENHO UMA BICICLETA<br>
+				<input type="checkbox" value="Car"> EU TENHO UM CARRO<br>
+			<hr>
+	 
+			<h1>Radio: permite escolher apenas uma das opções:</h1>
+				<input type="radio" name="gender" value="male"> Masculino <br>
+				<input type="radio" name="gender" value="female"> Feminino <br>
+			<hr>
+			
+			<h1>Textarea: entrada de várias linhas de texto</h1>
+				<textarea name=texto rows=5 cols=40>
+					Favor enviar mais informações.
+					Grato.
+				</textarea>
+			<hr>
+			
+			<h1>Menus</h1>
+				Onde você pretende fazer turismo nas férias?
+				<select name=”lugares_para_ver”>
+					<option> fortaleza
+					<option> florianópolis
+					<option> rio de janeiro
+					<option selected> brasília
+					<option> manaus
+				</select>
+			<hr>
+			
+			<h1>Botão de Limpeza</h1>
+				<input type=reset value=LIMPAR>
+			<hr>
+					
+			<h1>Botão de Submissão</h1>
+				<input type=submit value=ENVIAR>
+			<hr>
+
+		</form>
+	</body>	
+	
+</html>
